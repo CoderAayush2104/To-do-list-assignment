@@ -4,7 +4,7 @@ import { useSelector,useDispatch } from 'react-redux';
 import TaskInput from './components/TaskInput';
 import TaskList from './components/TaskList';
 import { getTasksFromStorage, saveTasksToStorage } from './utils/localStorage';
-import './styles.css';
+import './App.css';
 
 const App = () => {
   const dispatch = useDispatch();
